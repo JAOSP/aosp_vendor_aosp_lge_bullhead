@@ -20,8 +20,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.facelock.lively_timeout=2500 \
 	ro.facelock.est_max_time=600 \
 	ro.facelock.use_intro_anim=false \
-	ro.build.expect.bootloader=BHZ10i \
-	ro.build.expect.baseband=M8994F-2.6.28.0.65
+	ro.build.expect.bootloader=BHZ10k \
+	ro.build.expect.baseband=M8994F-2.6.30.0.68
 
 
 $(call inherit-product, $(LOCAL_PATH)/device-bullhead.mk)
